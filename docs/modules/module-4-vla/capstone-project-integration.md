@@ -541,7 +541,7 @@ This capstone project successfully integrates all components from the four modul
 3. **Module 3 (AI Perception & Control)**: Implements intelligent perception and control systems
 4. **Module 4 (VLA)**: Creates the complete voice-language-action pipeline
 
-For a comprehensive integration overview that demonstrates how all four modules work together in a complete system, see the [Cross-Module Integration: Complete VLA System](../../module-1-ros2-basics/complete_integration.md) document.
+For a comprehensive integration overview that demonstrates how all four modules work together in a complete system, see the [Cross-Module Integration: Complete VLA System](../module-1-ros2-basics/complete_integration.md) document.
 
 The system demonstrates:
 - Natural voice command processing for humanoid robots

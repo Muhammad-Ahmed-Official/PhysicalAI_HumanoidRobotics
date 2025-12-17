@@ -45,11 +45,12 @@ const config: Config = {
       'classic',
       {
         docs: {
+          path: '../docs', // Point to the root docs directory
           sidebarPath: require.resolve('./sidebars.ts'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Muhammad-Ahmed-Official/PhysicalAI_HumanoidRobotics/tree/main/',
           // Performance optimization: reduce number of requests
           showLastUpdateTime: true,
         },
@@ -111,19 +112,19 @@ const config: Config = {
           items: [
             {
               label: 'Module 1: ROS 2 Fundamentals',
-              to: '/docs/module-1/intro',
+              to: '/docs/modules/module-1-ros2-basics/chapter-1-1',
             },
             {
               label: 'Module 2: Digital Twin (Gazebo & Unity)',
-              to: '/docs/module-2/intro',
+              to: '/docs/modules/module-2-digital-twin/chapter-2-1',
             },
             {
               label: 'Module 3: AI-Robot Brain (NVIDIA Isaac)',
-              to: '/docs/module-3/intro',
+              to: '/docs/modules/module-3-ai-brain/chapter-3-1',
             },
             {
               label: 'Module 4: Vision-Language-Action (VLA)',
-              to: '/docs/module-4/intro',
+              to: '/docs/modules/module-4-vla/chapter-4-1',
             },
           ],
         },

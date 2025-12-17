@@ -1,0 +1,47 @@
+.dependencyHandler {
+  position: relative;
+}
+
+.dependencyError {
+  border: 2px solid #e32b2b;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+  background-color: #fff5f5;
+  color: #5d0000;
+}
+
+.dependencyWarning {
+  border: 2px solid #ffcc00;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+  background-color: #fffbeb;
+  color: #3f2b00;
+}
+
+.dependencySuccess {
+  border: 2px solid #4caf50;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+  background-color: #f1f8e9;
+  color: #1b5e20;
+}
+
+.dependencyMessage {
+  font-size: 0.9em;
+  margin-top: 8px;
+  font-style: italic;
+}
+
+.dependencyTitle {
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.dependencyIcon {
+  margin-right: 8px;
+}
